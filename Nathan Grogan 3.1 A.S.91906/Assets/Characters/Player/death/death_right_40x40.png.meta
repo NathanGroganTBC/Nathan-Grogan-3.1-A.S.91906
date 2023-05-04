@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,268 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: death_right_40x40_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b9c9f43bb62a34e89a1bd858ba40ba
+      internalID: -565404259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a3b3208deb8df41b95abd3bd5d1861
+      internalID: 1305840662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87414039758093d4daf8b11c8199f9e5
+      internalID: -1165030578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37e718a708921a4e906f9221bb3484d
+      internalID: -111696769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c4668da2d301479f859c921b2f43a
+      internalID: 1886657572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1fe4f363a89144bb1eac3ac8c4b4d3
+      internalID: -322124920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7be0aa8200a08419c8d6fe0590c6c4
+      internalID: -73195132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e313e9b4faec83f44adf59dc3a5d8700
+      internalID: -319498306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_right_40x40_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6f2ec9d6cfee840a9b191b509982d1
+      internalID: 1172588870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +387,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death_right_40x40_1: 1305840662
+      death_right_40x40_5: -322124920
+      death_right_40x40_4: 1886657572
+      death_right_40x40_6: -73195132
+      death_right_40x40_2: -1165030578
+      death_right_40x40_7: -319498306
+      death_right_40x40_3: -111696769
+      death_right_40x40_0: -565404259
+      death_right_40x40_8: 1172588870
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

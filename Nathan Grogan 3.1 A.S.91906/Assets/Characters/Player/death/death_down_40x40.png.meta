@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,268 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: death_down_40x40_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536fbf4cfb363a441b180a28cf01bbba
+      internalID: -1923740761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907079cb12e405349957e628b23399fb
+      internalID: -1534147566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51cbe8e46a671c4abe81d3f3a51e3c5
+      internalID: 1549168329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c309e3e361534290ae12bba8a4482
+      internalID: 1002566054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31f54d18b99dd748be9c1b1075e923a
+      internalID: -1779764068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1363003815a054b4fbb17bd943c8e7dd
+      internalID: -2027541869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614aaf68616c63247add175117a1433e
+      internalID: 597914738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7396be29000cd954980ff532560d0f78
+      internalID: -1781567125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_down_40x40_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f5f40a161cd8845a0370769fcd613d
+      internalID: 1769335544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +387,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death_down_40x40_2: 1549168329
+      death_down_40x40_4: -1779764068
+      death_down_40x40_7: -1781567125
+      death_down_40x40_5: -2027541869
+      death_down_40x40_8: 1769335544
+      death_down_40x40_6: 597914738
+      death_down_40x40_3: 1002566054
+      death_down_40x40_0: -1923740761
+      death_down_40x40_1: -1534147566
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

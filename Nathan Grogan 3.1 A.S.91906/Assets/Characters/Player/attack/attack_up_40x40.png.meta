@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,210 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: attack_up_40x40_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b102be2480dbfcb4b87cbc8b953b170f
+      internalID: 1468295737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf25544b377d00b49922d02934c912de
+      internalID: -1569863455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c1df7971100643951497a31b3587f
+      internalID: -743109714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2debb82cc77dcfc45ae9bbf08c9f425f
+      internalID: -1162638729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b2015287e13b4189b49527a962b62
+      internalID: 1299476028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453fc89df6a69294498be1cdd3ab23ec
+      internalID: 1710027330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_40x40_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503fec0dfbbdf4145b6a2e2fed7bf2ab
+      internalID: -519129367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +329,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attack_up_40x40_2: -743109714
+      attack_up_40x40_3: -1162638729
+      attack_up_40x40_5: 1710027330
+      attack_up_40x40_6: -519129367
+      attack_up_40x40_1: -1569863455
+      attack_up_40x40_4: 1299476028
+      attack_up_40x40_0: 1468295737
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

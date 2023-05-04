@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,268 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: death_up_40x40_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d2de67fc7c6c4096879e17fdfa11c
+      internalID: -91865502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef09a9835e9d646964e17b61458050
+      internalID: -73443287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31989f8cddf191e429ea6f63fec605cf
+      internalID: -1337475937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a6e52a9c5cf648a464beadc36d05d
+      internalID: 1379179750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87a1e40a8f1464e98ec1f2097da411
+      internalID: 2107451697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1995792ab824c994bb3c295fc9673416
+      internalID: -89637699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc595ea95c9748d4590c7dbe3684aa2a
+      internalID: 1595760840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f744c3c246fb440b8ee01f27905690
+      internalID: -641512891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_up_40x40_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      physicsShape:
+      - - {x: 0, y: -20}
+        - {x: 20, y: 0}
+        - {x: 0, y: 20}
+        - {x: -20, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af5370dcdd8f5b48915cea3f5630b7a
+      internalID: -1974544430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +387,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death_up_40x40_8: -1974544430
+      death_up_40x40_4: 2107451697
+      death_up_40x40_1: -73443287
+      death_up_40x40_7: -641512891
+      death_up_40x40_6: 1595760840
+      death_up_40x40_0: -91865502
+      death_up_40x40_2: -1337475937
+      death_up_40x40_3: 1379179750
+      death_up_40x40_5: -89637699
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
