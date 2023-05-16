@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public Animator animator;
-
+    string lookDirection = null;
     // Update is called once per frame
     void Update()
     {
@@ -18,25 +18,36 @@ public class PlayerMovement : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
         Vector3 mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        Vector3 lookAt = mouseScreenPosition; 
-
-
-        // this code is bad please fix
-
-        float AngleRad = Mathf.Atan2(lookAt.y, lookAt.x);
-
-        float AngleDeg = (180 / Mathf.PI) * AngleRad;
+        if (Input.GetAxis("Horizontal") < 0 | Input.GetAxis("Vertical") < 0)
+        {
+            if (Input.GetAxis("Horizontal") < 0)
+            {
+                lookDirection = "Left";
+            }
+            if (Input.GetAxis("Vertical") < 0)
+            {
+                lookDirection = "Down";
+            }
+        }
+        else if (Input.GetAxis("Horizontal") > 0 | Input.GetAxis("Vertical") > 0)
+        {
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                lookDirection = "Right";
+            }
+            if (Input.GetAxis("Vertical") > 0)
+            {
+                lookDirection = "Up";
+            }
+        }
         
 
         transform.position = transform.position + horizontal * Time.deltaTime;
         transform.position = transform.position + vertical * Time.deltaTime;
 
-        Quaternion Quater = Quaternion.Euler(0, 0, AngleDeg);
-        Debug.Log(Quater[2] + " " + Quater[3] + " " + (Quaternion.Euler(0, 0, AngleDeg)));
-        if (Quater[2] < 0 & Quater[3] < 0)
-        {
-            Debug.Log("buhg");
-        }
+
+        Debug.Log(lookDirection);
+
 
     }
 }
