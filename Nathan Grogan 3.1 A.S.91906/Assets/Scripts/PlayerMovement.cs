@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
         Vector3 mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         // This code makes the  "lookDirection" variable into a number, so up = 1 down = 2 left = 3 right = 4
-        if (Input.GetAxis("Horizontal") < 0 | Input.GetAxis("Vertical") < 0)
+        if (Input.GetAxis("Horizontal") < 0 | Input.GetAxis("Vertical") < 0 | Input.GetAxis("Horizontal") > 0 | Input.GetAxis("Vertical") > 0)
         {
             if (Input.GetAxis("Horizontal") < 0)
             {
@@ -37,9 +37,6 @@ public class PlayerMovement : MonoBehaviour
                 lookDirection = "Down";
                 lookAxis = 2;
             }
-        }
-        else if (Input.GetAxis("Horizontal") > 0 | Input.GetAxis("Vertical") > 0)
-        {
             if (Input.GetAxis("Horizontal") > 0)
             {
                 lookDirection = "Right";
