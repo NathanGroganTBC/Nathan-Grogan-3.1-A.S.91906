@@ -49,7 +49,14 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         
-
+        if (Input.GetKeyDown("w") | Input.GetKeyDown("w"))
+        {
+            horizontal = 0;
+        }
+        if (Input.GetKeyDown("a") | Input.GetKeyDown("d"))
+        {
+            horizontal = 0;
+        }
         transform.position = transform.position + horizontal * Time.deltaTime;
         transform.position = transform.position + vertical * Time.deltaTime;
 
