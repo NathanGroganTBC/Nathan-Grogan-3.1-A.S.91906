@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthBar : MonoBehaviour
 {
     public Image healthBarImage;
     public Sprite[] healthSprites;
-    public int maxHealth = 10;
+    public int maxHealth = 9;
 
     private int currentHealth;
 
@@ -26,7 +24,12 @@ public class PlayerHealthBar : MonoBehaviour
 
         // Make sure the health doesn't go below 0
         if (currentHealth < 0)
+        {
+            SceneManager.LoadScene(1);
             currentHealth = 0;
+            
+        }
+
 
         UpdateHealthBar();
     }
@@ -38,14 +41,6 @@ public class PlayerHealthBar : MonoBehaviour
 
     void Update()
     {
-        if (currentHealth != 0)
-        {
-             DecreaseHealth();
-        }
-        else
-        {
-            currentHealth = 10;
-        }
         Debug.Log(currentHealth);
     }
 }

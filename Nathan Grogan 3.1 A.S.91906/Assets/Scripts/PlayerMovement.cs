@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown("w") | Input.GetKeyDown("s"))
         {
             Debug.Log("aa");
-            Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+            //Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 
         }
         if (Input.GetKeyDown("a") | Input.GetKeyDown("d"))
