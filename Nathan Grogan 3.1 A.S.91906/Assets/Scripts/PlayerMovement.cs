@@ -49,13 +49,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown("w") | Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("w") | Input.GetKeyDown("s"))
         {
-            horizontal = 0;
+            Debug.Log("aa");
+            Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+
         }
         if (Input.GetKeyDown("a") | Input.GetKeyDown("d"))
         {
-            horizontal = 0;
+            Debug.Log("bb");
         }
         transform.position = transform.position + horizontal * Time.deltaTime;
         transform.position = transform.position + vertical * Time.deltaTime;
