@@ -39,8 +39,4 @@ public class PlayerHealthBar : MonoBehaviour
         healthBarImage.sprite = healthSprites[currentHealth];
     }
 
-    void Update()
-    {
-        Debug.Log(currentHealth);
-    }
 }

@@ -1,12 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Tilemaps;
 
 public class Key1Script : MonoBehaviour
 {
     public Image keyImage;
     public Collider2D triggerCollider;
+    public Tilemap key1Door;
+    private TilemapRenderer tilemapRenderer;
+    
     
     private bool isCollected;
+
+    private void Start()
+    {
+        tilemapRenderer = key1Door.GetComponent<TilemapRenderer>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,6 +36,8 @@ public class Key1Script : MonoBehaviour
 
         // Set the key as collected
         isCollected = true;
+        tilemapRenderer.enabled = false;
+        key1Door.GetComponent<Collider2D>().enabled = false;
 
         // Show the UI image
         if (keyImage != null)

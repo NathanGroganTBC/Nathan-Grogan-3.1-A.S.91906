@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public Animator animator;
-
+    public ExitDoorScript won;
 
     string lookDirection = null;
     int lookAxis = 2;
@@ -21,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
-        Vector3 mousePos = Input.mousePosition;
-        Vector3 mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+
         // This code makes the  "lookDirection" variable into a number, so up = 1 down = 2 left = 3 right = 4
         if (Input.GetAxis("Horizontal") < 0 | Input.GetAxis("Vertical") < 0 | Input.GetAxis("Horizontal") > 0 | Input.GetAxis("Vertical") > 0)
         {
@@ -59,9 +59,11 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("bb");
         }
-        transform.position = transform.position + horizontal * Time.deltaTime;
-        transform.position = transform.position + vertical * Time.deltaTime;
-
+        if (!won.HasWonGame())
+        {
+            transform.position = transform.position + horizontal * Time.deltaTime;
+            transform.position = transform.position + vertical * Time.deltaTime;
+        }
 
         // Debug.Log(lookDirection + " " + Input.GetAxis("Horizontal") + " " + Input.GetAxis("Vertical"));
         // checks if idle or not

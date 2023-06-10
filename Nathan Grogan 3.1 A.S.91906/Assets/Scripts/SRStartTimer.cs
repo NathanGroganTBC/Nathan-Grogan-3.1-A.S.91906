@@ -9,7 +9,8 @@ public class SRStartTimer : MonoBehaviour
     public SpeedrunTimer timerScript;
     public TextMeshProUGUI startTimerText;
     public Key1Script key1;
-
+    public Image TimerBackground;
+    public Sprite key1BG;
 
     private bool isActive;
 
@@ -31,7 +32,8 @@ public class SRStartTimer : MonoBehaviour
             int seconds = (int)(currentTime % 60);
             if (key1 != null && key1.IsKeyCollected())
             {
-                 StopStartTimer();
+                StopStartTimer();
+                TimerBackground.sprite = key1BG;
             }
 
             // Update the UI text element
