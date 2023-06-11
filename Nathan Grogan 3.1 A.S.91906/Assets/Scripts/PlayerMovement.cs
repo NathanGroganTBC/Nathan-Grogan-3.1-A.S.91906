@@ -59,11 +59,11 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("bb");
         }
-        if (!won.HasWonGame())
-        {
-            transform.position = transform.position + horizontal * Time.deltaTime;
-            transform.position = transform.position + vertical * Time.deltaTime;
-        }
+        //if (!won.HasWonGame())
+        //{
+        transform.position = transform.position + horizontal * Time.deltaTime;
+        transform.position = transform.position + vertical * Time.deltaTime;
+        //}
 
         // Debug.Log(lookDirection + " " + Input.GetAxis("Horizontal") + " " + Input.GetAxis("Vertical"));
         // checks if idle or not
