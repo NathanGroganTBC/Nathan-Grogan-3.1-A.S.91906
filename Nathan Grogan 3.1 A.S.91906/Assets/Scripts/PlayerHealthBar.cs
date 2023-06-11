@@ -25,7 +25,7 @@ public class PlayerHealthBar : MonoBehaviour
         // Make sure the health doesn't go below 0
         if (currentHealth < 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
             currentHealth = 0;
             
         }
