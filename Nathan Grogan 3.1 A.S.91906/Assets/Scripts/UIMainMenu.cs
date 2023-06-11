@@ -15,8 +15,7 @@ public class UIMainMenu : MonoBehaviour
 
     private void StartNewGame()
     {
-        Debug.Log("bruh");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
 }

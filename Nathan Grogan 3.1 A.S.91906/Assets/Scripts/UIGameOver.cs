@@ -19,12 +19,12 @@ public class UIGameOver : MonoBehaviour
 
     private void NewGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
         private void OpenTitleScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
 
     }
 }
