@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2734,11 +2734,11 @@ TextureImporter:
       decorative_1: 1798810497
       decorative_103: -953088408
       decorative_62: 1816976447
+      decorative_107: -103257654
       decorative_34: -236751894
       decorative_51: -1809160028
       decorative_100: -1879023792
       decorative_110: 640451162
-      decorative_107: -103257654
       decorative_27: -1638095819
       decorative_56: 1389731807
       decorative_76: 1055399918
@@ -2773,9 +2773,9 @@ TextureImporter:
       decorative_58: 387089691
       decorative_50: -1433650452
       decorative_84: -854049959
-      decorative_79: -503724601
       decorative_90: -2085945083
       decorative_102: 914374098
+      decorative_79: -503724601
       decorative_118: -621013361
       decorative_60: 1291088596
       decorative_5: 168683648
